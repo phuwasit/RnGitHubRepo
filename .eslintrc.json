@@ -1,0 +1,45 @@
+{
+  "extends": "airbnb",
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import",
+    "jest"
+  ],
+  "env": {
+    "browser": true,
+    "jest/globals": true
+  },
+  "globals": {
+    "__DEV__": true
+  },
+  "rules": {
+    "semi": [
+      "warn",
+      "never"
+    ],
+    "react/jsx-boolean-value": 0,
+    "react/forbid-prop-types": 0,
+    "no-underscore-dangle": 0,
+    "jsx-a11y/img-has-alt": 0,
+    "react/prop-types": 0,
+    "global-require": 0,
+    "import/prefer-default-export": "off",
+    "no-console": "off",
+    "no-use-before-define": 0,
+    "react/prefer-stateless-function": 0,
+    "react/jsx-filename-extension": [
+      0,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/valid-expect": "error"
+  }
+}
