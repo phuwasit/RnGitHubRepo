@@ -1,0 +1,12 @@
+[
+    {
+        "login": "simon",
+        "id": 12345,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/12345?v=3"
+    },
+    {
+        "login": "nerd",
+        "id": 6789,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/6789-?v=3"
+    }
+]
