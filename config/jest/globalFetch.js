@@ -10,6 +10,6 @@ fetch.mockResponseSuccess = (body) => {
 
 fetch.mockResponseFailure = (error) => {
   fetch.mockImplementationOnce(
-    () => Promise.reject(error),
+    () => Promise.reject(JSON.parse(error)),
   )
 }
